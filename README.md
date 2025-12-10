@@ -77,9 +77,10 @@ src/main/java/com/bhavya/tms/
 </ol>
 
 ### **2️⃣ Using Terminal**
-```bash
+
 ./mvnw clean package
 java -jar target/tms-0.0.1-SNAPSHOT.jar
+
 Application starts at:
 http://localhost:8080
 
@@ -95,6 +96,7 @@ http://localhost:8080/transporter-trucks/{transporterId}
 
 ✔ Returns all trucks belonging to that transporter.
 If no trucks exist → returns [] (empty list).
+
 <b>Bhavya Nandwani</b>
 B.Tech CSE-AI
 
